@@ -288,30 +288,86 @@ button {
   background-color: rgba(80, 48, 9, 0.7);
 }
 
-.intro-wrap.__bg::after {
-  width: 100%;
-  height: 483px;
-  background-image: url("../img/whitebox.png");
-  background-repeat: no-repeat;
-  content: "";
-  position: absolute;
-  top: 5%;
-  left: 6%;
+.intro-box {
+  margin: 0 auto;
+  padding: 3%;
+  border-radius: 20px;
+  background-color: #fff;
+  width: 80%;
+  height: 50%;
 }
 
-
-.intro-text1 {
-  font-size: 2rem;
+.intro-text1 h2 {
+  font-size: 3rem;
   color: #000;
-  text-align: center;
-  top: 15%;
+  left: 17%;
+  top: 35%;
+  position: absolute;
+  z-index: 2;
 }
 
-.intro-wrap__right {
-  width: 50%;
+.intro-text1 p {
+  font-size: 2.5rem;
+  color: #000;
+  left: 25%;
+  top: 50%;
+  position: absolute;
+  z-index: 2;
 }
 
 
 .intro-wrap__right img {
-  right: 10%;
+  right: 13%;
+  top: 15%;
+  position: absolute;
+  z-index: 2;
+}
+
+
+.fea-wrap__ttl {
+  text-align: center;
+}
+
+.fea-wrap__con__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4%;
+}
+
+.fea-wrap__con__block:nth-of-type(2n) {
+  flex-direction: row-reverse;
+}
+
+
+.fea-wrap__con__block__txt {
+  width: 45%;
+}
+
+.fea-wrap__con__block__txt span {
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 1.5% 5%;
+}
+
+.fea-wrap__con__block__txt h3 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: 4%;
+}
+
+.fea-wrap__con__block__txt p {
+  font-size: 1rem;
+  line-height: 2;
+  margin-top: 5%;
+}
+
+.fea-wrap__con__block__middle__img {
+  width: 100%;
+  height: auto;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+
 }
